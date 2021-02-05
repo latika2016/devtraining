@@ -14,7 +14,7 @@ When damage received exceeds current Health, Health becomes 0 and the character 
 For extra points add Logging, and a Metric that counts the number of times a character is damaged.
 */
 
-import { damage } from "./src/dragonExample";
+import { damage } from "./src/functionals";
 import { dragon } from "./src/dragons";
 import { logger, profiler } from "./src/nonfunctionals";
 
